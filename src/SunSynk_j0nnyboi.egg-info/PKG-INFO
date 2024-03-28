@@ -1,3 +1,16 @@
+Metadata-Version: 2.1
+Name: SunSynk_j0nnyboi
+Version: 0.0.1
+Summary: SunSynk API
+Author-email: Jonathan Wright <owlman2222@yahoo.co.uk>
+Project-URL: Homepage, https://github.com/j0nnyboi/SunSynk
+Project-URL: Issues, https://github.com/j0nnyboi/SunSynk/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
 # SunSynk API 
 This is a python class to make it easier to get your data off the sunsynk V2 servers throught there API
 
@@ -20,11 +33,3 @@ Sun.battery_realtime() #to get battery data
 if you get a Certificate error please run 'pip3 install --upgrade certifi', this should fix the error
 
 Not 100% tested yet
-
-you can install with pip install SunSynk-j0nnyboi
-```
-import SunSynk-j0nnyboi
-Sun = SunSynk-j0nnyboi.SunSynk(username,password)#your username and password your created on https://sunsynk.net/ 
-Sun.interters_realtime() #to get inverter data
-Sun.battery_realtime() #to get battery data 
-```
