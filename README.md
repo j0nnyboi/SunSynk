@@ -23,8 +23,8 @@ Not 100% tested yet
 
 you can install with pip install SunSynk-j0nnyboi
 ```
-import SunSynk-j0nnyboi
-Sun = SunSynk-j0nnyboi.SunSynk(username,password)#your username and password your created on https://sunsynk.net/ 
+from SunSynk_j0nnyboi import SunSynk
+Sun = SunSynk.SunSynk(username,password)#your username and password your created on https://sunsynk.net/ 
 Sun.interters_realtime() #to get inverter data
 Sun.battery_realtime() #to get battery data 
 ```
